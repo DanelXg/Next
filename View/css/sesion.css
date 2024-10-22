@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@300,900&display=swap');
+
+:root {
+    --color-dark-blue: rgb(49, 60, 128);
+    --color-blued-gray: rgb(64, 68, 144);
+    --color-white: rgb(255, 255, 255);
+    --color-black: rgb(0, 0, 0);
+    --font-sm: 1rem;
+    --font-md: 1.2rem;
+    --font-lg: 1.4rem;
+}
+
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+
+nav {
+    background-color: var(--color-black);
+    position: fixed;
+    width: 100%;
+}
+
+nav .logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+nav .logo img {
+    height: 70px;
+    width: auto;
+}
+
+.login {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url(../css/img/loginBack.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;   
+    z-index: 1;
+}
+
+.login .form-container .logo {
+    width: 150px;
+    margin-bottom: 50px;
+    justify-self: center;
+    display: none;
+}
+
+.login .form-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 400px;
+    border-radius: 20px;
+    background: radial-gradient(#7018c6 30px, #000000);
+    z-index: 2;
+}
+
+.login .form-container .form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login .form-container .form .label {
+    font-size: var(--font-sm);
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.login .form-container .form .input {
+    background-color: var(--color-white);
+    border: none;
+    border-radius: 8px;
+    height: 28px;
+    font-size: var(--font-sm);
+    padding: 4px;
+    margin-bottom: 12px;
+}
+
+.login .form-container .form .primary-btn {
+    background-color: var(--color-blued-gray);
+    border-radius: 8px;
+    border: none;
+    color: var(--color-white);
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--font-md);
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.login .form-container .form .primary-btn:hover {
+    color: var(--color-black);
+    background-color: var(--color-white);
+    transition: all 0.4s;
+}
+
+.forgot {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.secondary-btn {
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: white;
+    background: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 18px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: .3 ease-in;
+    cursor: pointer;
+    box-shadow: 5px 20px 40px black;
+}
+
+a .secondary-btn:hover {
+    background: white;
+    color: black;
+    text-decoration: none;
+}

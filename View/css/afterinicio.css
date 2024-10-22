@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(16, 24, 32);
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo img {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links a {
+    background-color: rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.1);
+}
+
+.header .nav-links li a:hover {
+    color: gold;
+}
+
+.header .btn-car button {
+    margin-left: 20px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    padding: 9px 25px;
+    background: rgb(49, 92, 201);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn-car button:hover {
+    background-color: goldenrod;
+    color: rgb(255, 243, 176);
+    transform: scale(1.1);
+    background-image: url(../css/img/carrito-de-compras.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+
+.header .cuenta {
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    padding: 9px 25px;
+    background: rgb(70, 142, 152);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .cuenta:hover {
+    background-color: goldenrod;
+    color: rgb(255, 243, 176);
+    transform: scale(1.1);
+    background-image: url(../css/img/usuario.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+.header .menu {
+    margin-top: 63px;
+}
+
+.dropmenu {
+    visibility: hidden;
+    margin-top: 10px;
+    border-radius: 0.2em;
+    background-color: rgb(109, 109, 109);
+}
+
+.dropmenu.active {
+    display: block;
+    visibility: visible;
+}
+
+.header .dropmenu li {
+    list-style: none;
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+
+.header .dropmenu li:hover {
+    background: #2a2d35;
+}
+
+.header .config {
+    margin-top: 0;
+    height: 60px;
+}
+
+
+
+.header .link-conf {
+    padding: 0.1em;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+

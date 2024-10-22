@@ -1,0 +1,29 @@
+.nomen {
+    padding: 0.2em;
+    margin: 0.2cm 0.8cm;
+    display: flex;
+    flex-direction: column;
+}
+
+.Update {
+    padding: 0.2em;
+    margin: 0.5em 0.5em;
+    margin-left: 1.7cm;
+}
+
+form {
+    background: linear-gradient(to top, rgb(6, 21, 87), rgb(110, 110, 110));
+    color: white;
+}
+
+.edit {
+    background: black;
+}
+
+.edit h1 {
+    color: white;
+}
+
+.a-regresar {
+    text-decoration: none;
+}

@@ -1,0 +1,56 @@
+.h1 .configuracionh1 {
+    background: black;
+    color: white;
+    padding: 0.3em;
+}
+
+.h1 {
+    margin: 0.2em 0.1em;
+}
+
+.underh1 {
+    padding: 0.5em;
+    margin: 2px 2px;
+    background: rgb(179, 212, 245);
+}
+
+.underh1 .correo-cuenta {
+    font-size: 9mm;
+}
+
+.underh1 .a-regresar {
+    text-decoration: none;
+}
+
+section {
+    background-color: rgb(155, 172, 176);
+}
+
+.box {
+    height: 32rem;
+}
+
+.box .info {
+    color: white;
+    background: rgb(135, 135, 135);
+}
+
+
+.list-info {
+    background: rgba(rgb(34, 36, 93));
+}
+
+.box .info {
+    padding: 0.3em;
+}
+
+.list-info {
+    padding: 1rem;
+    font-size: 5mm;
+}
+
+.list-info .btn {
+    margin-top: 0.9em;
+    margin-right: 1em;
+    background: white;
+}
